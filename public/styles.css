@@ -587,8 +587,8 @@ button:active,
 }
 
 .board-photo {
-  width: 96px;
-  height: 96px;
+  width: 116px;
+  height: 116px;
   border-radius: 50%;
   margin: 0 auto;
   object-fit: cover;
@@ -597,8 +597,8 @@ button:active,
 }
 
 .board-initials {
-  width: 96px;
-  height: 96px;
+  width: 116px;
+  height: 116px;
   border-radius: 50%;
   margin: 0 auto;
   display: grid;
@@ -612,6 +612,12 @@ button:active,
 .board-role {
   font-size: 0.85rem;
   color: var(--muted);
+}
+
+.board-card.president .board-photo,
+.board-card.president .board-initials {
+  width: 128px;
+  height: 128px;
 }
 
 .commissions {
@@ -1674,6 +1680,18 @@ body.menu-open .mobile-panel {
 
   .board-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .board-photo,
+  .board-initials {
+    width: 104px;
+    height: 104px;
+  }
+
+  .board-card.president .board-photo,
+  .board-card.president .board-initials {
+    width: 116px;
+    height: 116px;
   }
 }
 

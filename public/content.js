@@ -350,31 +350,31 @@ window.__CONTENT__ = {
       {
         "name": "Semra Kaya",
         "role": "Yönetim Kurulu Üyesi",
-        "image": "",
+        "image": "assets/semra-kaya.jpeg",
         "isPresident": false
       },
       {
         "name": "Semra Turhan",
         "role": "Yönetim Kurulu Üyesi",
-        "image": "",
+        "image": "assets/semra-turan.jpeg",
         "isPresident": false
       },
       {
         "name": "Nureddin Vara",
         "role": "Yönetim Kurulu Üyesi",
-        "image": "",
+        "image": "assets/nureddin-vara.png",
         "isPresident": false
       },
       {
         "name": "Uğur Boğan",
         "role": "Yönetim Kurulu Üyesi",
-        "image": "",
+        "image": "assets/ugur-bogan.jpeg",
         "isPresident": false
       },
       {
         "name": "Metin Elveren",
         "role": "Yönetim Kurulu Üyesi",
-        "image": "",
+        "image": "assets/metin-elveren.jpeg",
         "isPresident": false
       },
       {
@@ -386,25 +386,25 @@ window.__CONTENT__ = {
       {
         "name": "Sakina Özkan",
         "role": "Yönetim Kurulu Üyesi",
-        "image": "",
+        "image": "assets/sakina-ozkan.jpeg",
         "isPresident": false
       },
       {
         "name": "Tunakan Bozkurt",
         "role": "Yönetim Kurulu Üyesi",
-        "image": "",
+        "image": "assets/tunahan-bozkurt.jpeg",
         "isPresident": false
       },
       {
         "name": "Hüseyin Güneş",
         "role": "Yönetim Kurulu Üyesi",
-        "image": "",
+        "image": "assets/huseyin-gunes.jpeg",
         "isPresident": false
       },
       {
         "name": "Pınar Fakir",
         "role": "Yönetim Kurulu Üyesi",
-        "image": "",
+        "image": "assets/pinarfakir.jpeg",
         "isPresident": false
       }
     ]
