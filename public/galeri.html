@@ -86,12 +86,37 @@
 
       <section class="section">
         <div class="container">
-          <div class="gallery-grid">
-            <!-- Görseller eklenecek -->
+          <div class="photo-grid">
+            <article class="photo-card reveal">
+              <img src="/assets/galeri-1.png" alt="Galeri görseli 1" loading="lazy" />
+            </article>
+            <article class="photo-card reveal">
+              <img src="/assets/galeri-2.png" alt="Galeri görseli 2" loading="lazy" />
+            </article>
+            <article class="photo-card reveal">
+              <img src="/assets/galeri-3.png" alt="Galeri görseli 3" loading="lazy" />
+            </article>
+            <article class="photo-card reveal">
+              <img src="/assets/galeri-4.png" alt="Galeri görseli 4" loading="lazy" />
+            </article>
+            <article class="photo-card reveal">
+              <img src="/assets/galeri-5.png" alt="Galeri görseli 5" loading="lazy" />
+            </article>
+            <article class="photo-card reveal">
+              <img src="/assets/galeri-6.png" alt="Galeri görseli 6" loading="lazy" />
+            </article>
           </div>
         </div>
       </section>
     </main>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-backdrop" data-lightbox-close aria-label="Kapat" type="button"></button>
+      <div class="lightbox-content" role="dialog" aria-modal="true">
+        <img class="lightbox-image" id="lightboxImage" alt="" />
+        <button class="lightbox-close" type="button" data-lightbox-close aria-label="Kapat">×</button>
+      </div>
+    </div>
 
     <footer id="iletisim" class="footer">
       <div class="container footer-grid">
