@@ -680,6 +680,38 @@ button:active,
   width: 260px;
 }
 
+.memorial-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.memorial-card {
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.9), rgba(240, 235, 228, 0.85));
+  border: 1px solid rgba(27, 35, 40, 0.14);
+  border-radius: 18px;
+  padding: 28px 20px;
+  text-align: center;
+  box-shadow: 0 16px 28px rgba(27, 35, 40, 0.14);
+}
+
+.memorial-card h3 {
+  margin: 0;
+  font-family: var(--font-head);
+  font-size: 1.5rem;
+  color: #1f2a33;
+}
+
+.memorial-card p {
+  margin: 10px 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -997,6 +1029,50 @@ button:active,
 
 .event-group-card p {
   color: var(--muted);
+}
+
+.events-year {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 34px;
+}
+
+.events-year-title {
+  font-family: var(--font-head);
+  font-size: clamp(1.6rem, 2.4vw, 2.1rem);
+  color: #1f2a33;
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+}
+
+.event-media-placeholder {
+  background: linear-gradient(145deg, rgba(107, 138, 163, 0.2), rgba(27, 35, 40, 0.08));
+  display: grid;
+  place-items: center;
+}
+
+.event-media-placeholder span {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(27, 35, 40, 0.75);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(27, 35, 40, 0.14);
+  border-radius: 999px;
+  padding: 6px 10px;
+}
+
+.event-type-tag {
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(107, 138, 163, 0.16);
+  color: #21313d;
+  border: 1px solid rgba(27, 35, 40, 0.1);
+  font-size: 0.78rem;
+  font-weight: 700;
 }
 
 .lightbox {
@@ -1692,6 +1768,11 @@ body.menu-open .mobile-panel {
   .board-card.president .board-initials {
     width: 116px;
     height: 116px;
+  }
+
+  .memorial-grid {
+    grid-template-columns: 1fr;
+    max-width: 420px;
   }
 }
 
