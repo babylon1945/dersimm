@@ -735,6 +735,8 @@ button:active,
 .hawar-image-card {
   grid-column: 1;
   grid-row: 1;
+  justify-self: start;
+  align-self: start;
   overflow: hidden;
 }
 
@@ -786,6 +788,11 @@ button:active,
   margin: 0;
   line-height: 1.68;
   color: #263542;
+}
+
+.hawar-copy .inner-voice {
+  font-style: italic;
+  color: #1f2a33;
 }
 
 .hawar-quote {
