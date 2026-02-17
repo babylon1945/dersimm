@@ -312,7 +312,7 @@ window.__CONTENT__ = {
     "title": "Ankara Dersimliler Derneği",
     "tagline": "Etkinlikler ve duyurular için bizi takip edin.",
     "address": "Cıngıllı Apartmanı, Kızılay, Selanik Cd No:18 D:20 kat.5, 06000 Çankaya/Ankara",
-    "phone": "+90 555 000 00 00",
+    "phone": "0533 565 84 94",
     "email": "",
     "socials": [
       {
