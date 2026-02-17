@@ -344,7 +344,7 @@ window.__CONTENT__ = {
       {
         "name": "Hüseyin Arat",
         "role": "Başkan",
-        "image": "",
+        "image": "assets/huseyin-arat.jpeg",
         "isPresident": true
       },
       {
@@ -380,7 +380,7 @@ window.__CONTENT__ = {
       {
         "name": "Emel Emre",
         "role": "Yönetim Kurulu Üyesi",
-        "image": "",
+        "image": "assets/emel-emre.jpeg",
         "isPresident": false
       },
       {
