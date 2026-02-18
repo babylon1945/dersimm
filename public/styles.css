@@ -680,6 +680,30 @@ button:active,
   width: 260px;
 }
 
+.founders-about {
+  max-width: 980px;
+  margin: 30px auto 0;
+  padding: 22px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(27, 35, 40, 0.12);
+  border-radius: 18px;
+  box-shadow: 0 14px 28px rgba(27, 35, 40, 0.12);
+  display: grid;
+  gap: 12px;
+}
+
+.founders-about h3 {
+  margin: 0;
+  font-family: var(--font-head);
+  color: #1f2a33;
+}
+
+.founders-about p {
+  margin: 0;
+  color: #263542;
+  line-height: 1.65;
+}
+
 .memorial-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
