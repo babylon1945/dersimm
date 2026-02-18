@@ -1104,6 +1104,20 @@ button:active,
   text-align: center;
 }
 
+.atelier-quote {
+  display: inline-grid;
+  gap: 8px;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.atelier-quote small {
+  justify-self: end;
+  text-align: right;
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.95);
+}
+
 .event-group-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
