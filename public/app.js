@@ -221,6 +221,22 @@ function applyContent(data) {
   setText("heroCardName", data.heroCard?.name);
   setText("heroCardDate", data.heroCard?.date);
   setText("heroCardCta", data.heroCard?.cta);
+  const heroCardCta = document.getElementById("heroCardCta");
+  if (heroCardCta) {
+    heroCardCta.onclick = null;
+    const detailTarget = data.heroCard?.image || data.heroCard?.url || "";
+    if (detailTarget) {
+      heroCardCta.style.cursor = "pointer";
+      heroCardCta.setAttribute("title", "Etkinlik görselini aç");
+      heroCardCta.onclick = () => {
+        if (typeof window.openLightboxImage === "function") {
+          window.openLightboxImage(detailTarget, data.heroCard?.name || "Etkinlik afişi");
+          return;
+        }
+        window.open(detailTarget, "_blank", "noopener,noreferrer");
+      };
+    }
+  }
 
   setText("campaignTitle", data.campaign?.title);
   setText("campaignName", data.campaign?.name);

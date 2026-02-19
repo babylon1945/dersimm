@@ -100,7 +100,7 @@ const photoGrid = document.querySelector(".photo-grid");
 const lightbox = document.querySelector("#lightbox");
 const lightboxImage = document.querySelector("#lightboxImage");
 
-if (photoGrid && lightbox && lightboxImage) {
+if (lightbox && lightboxImage) {
   const closeLightbox = () => {
     lightbox.classList.remove("is-open");
     lightbox.setAttribute("aria-hidden", "true");
@@ -109,15 +109,24 @@ if (photoGrid && lightbox && lightboxImage) {
     lightboxImage.alt = "";
   };
 
-  photoGrid.addEventListener("click", (event) => {
-    const image = event.target.closest("img");
-    if (!image) return;
-    lightboxImage.src = image.src;
-    lightboxImage.alt = image.alt || "Görsel";
+  const openLightbox = (src, alt) => {
+    if (!src) return;
+    lightboxImage.src = src;
+    lightboxImage.alt = alt || "Görsel";
     lightbox.classList.add("is-open");
     lightbox.setAttribute("aria-hidden", "false");
     document.body.classList.add("lightbox-open");
-  });
+  };
+
+  window.openLightboxImage = openLightbox;
+
+  if (photoGrid) {
+    photoGrid.addEventListener("click", (event) => {
+      const image = event.target.closest("img");
+      if (!image) return;
+      openLightbox(image.src, image.alt || "Görsel");
+    });
+  }
 
   lightbox.addEventListener("click", (event) => {
     if (event.target.matches("[data-lightbox-close]")) {

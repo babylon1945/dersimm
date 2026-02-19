@@ -41,9 +41,10 @@ window.__CONTENT__ = {
   "stats": [],
   "heroCard": {
     "title": "Yaklaşan Etkinlik",
-    "name": "Hızır Lokması",
-    "date": "14 Şubat 2026 • 14:00",
-    "cta": "Detaylar"
+    "name": "21 Şubat Dünya Anadil Günü",
+    "date": "21 Şubat 2026 • 15:00",
+    "cta": "Detaylar",
+    "image": "assets/dunya-anadil-gunu-2026.jpeg"
   },
   "campaign": {
     "title": "Öne Çıkan Duyuru",
@@ -56,8 +57,8 @@ window.__CONTENT__ = {
     "subtitle": "Takvimimize göz atın ve topluluğa katılın.",
     "items": [
       {
-        "date": "14 Şubat 2026",
-        "title": "Hızır Lokması",
+        "date": "21 Şubat 2026",
+        "title": "21 Şubat Dünya Anadil Günü",
         "body": ""
       }
     ]
