@@ -41,10 +41,10 @@ window.__CONTENT__ = {
   "stats": [],
   "heroCard": {
     "title": "Yaklaşan Etkinlik",
-    "name": "21 Şubat Dünya Anadil Günü",
-    "date": "21 Şubat 2026 • 15:00",
+    "name": "Kadınlar Buluşması",
+    "date": "28 Şubat 2026 • 15.00",
     "cta": "Detaylar",
-    "image": "assets/dunya-anadil-gunu-2026.jpeg"
+    "image": "assets/kadinlar-bulusmasi-2026.png"
   },
   "campaign": {
     "title": "Öne Çıkan Duyuru",
@@ -56,6 +56,11 @@ window.__CONTENT__ = {
     "title": "Yaklaşan etkinlikler",
     "subtitle": "Takvimimize göz atın ve topluluğa katılın.",
     "items": [
+      {
+        "date": "28 Şubat 2026 • 15.00",
+        "title": "Kadınlar Buluşması",
+        "body": ""
+      },
       {
         "date": "21 Şubat 2026",
         "title": "21 Şubat Dünya Anadil Günü",
