@@ -73,6 +73,14 @@ window.__CONTENT__ = {
     "subtitle": "Güncel haber ve duyurular.",
     "items": [
       {
+        "title": "Ankara’da Hakan Tosun’un savcılık fezlekesine tepki: 'Bu şiddet ‘yaralama’ kapsamında değerlendirilemez'",
+        "body": "",
+        "image": "https://www.evrensel.net/images/840/upload/dosya/336527.jpg",
+        "date": "2026-03-01T19:58:00+03:00",
+        "url": "https://www.evrensel.net/haber/5972987/ankarada-hakan-tosunun-savcilik-fezlekesine-tepki-bu-siddet-yaralama-kapsaminda-degerlendirilemez",
+        "linkLabel": "Habere git"
+      },
+      {
         "title": "Ankara Dersimliler Derneğinde yeni yönetim belirlendi",
         "body": "",
         "image": "assets/yonetim-yeni.png",
