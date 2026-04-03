@@ -73,6 +73,13 @@ window.__CONTENT__ = {
     "subtitle": "Güncel haber ve duyurular.",
     "items": [
       {
+        "title": "Ankara'da yurttaşlar Akbelen direnişçisi Esra Işık için bir araya geldi",
+        "body": "",
+        "image": "https://static.birgun.net/resim/haber/2026/04/01/ankara-da-yurttaslar-akbelen-direniscisi-esra-isik-icin-bir-araya-geldi.jpg",
+        "url": "https://www.birgun.net/haber/ankara-da-yurttaslar-akbelen-direniscisi-esra-isik-icin-bir-araya-geldi-702996",
+        "linkLabel": "Habere git"
+      },
+      {
         "title": "Ankara’da Hakan Tosun’un savcılık fezlekesine tepki: 'Bu şiddet ‘yaralama’ kapsamında değerlendirilemez'",
         "body": "",
         "image": "https://www.evrensel.net/images/840/upload/dosya/336527.jpg",
