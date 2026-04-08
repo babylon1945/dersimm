@@ -41,10 +41,10 @@ window.__CONTENT__ = {
   "stats": [],
   "heroCard": {
     "title": "Yaklaşan Etkinlik",
-    "name": "Kadınlar Buluşması",
-    "date": "28 Şubat 2026 • 15.00",
+    "name": "Bu Toprağın Hikayesi",
+    "date": "18 Nisan 2026 • 15.00",
     "cta": "Detaylar",
-    "image": "assets/kadinlar-bulusmasi-2026.png"
+    "image": "assets/kitap-atolyesi-8.jpeg"
   },
   "campaign": {
     "title": "Öne Çıkan Duyuru",
@@ -56,6 +56,11 @@ window.__CONTENT__ = {
     "title": "Yaklaşan etkinlikler",
     "subtitle": "Takvimimize göz atın ve topluluğa katılın.",
     "items": [
+      {
+        "date": "5 Nisan 2026",
+        "title": "Bu Toprağın Hikayesi",
+        "body": ""
+      },
       {
         "date": "28 Şubat 2026 • 15.00",
         "title": "Kadınlar Buluşması",
