@@ -422,6 +422,32 @@ button:active,
   width: 70%;
 }
 
+.hero-events-card {
+  padding: 0;
+  display: grid;
+  gap: 0;
+  overflow: hidden;
+}
+
+.hero-events-card.is-split {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.hero-event-item {
+  padding: 24px;
+  display: grid;
+  align-content: start;
+  gap: 8px;
+}
+
+.hero-event-item + .hero-event-item {
+  border-top: 1px solid var(--border);
+}
+
+.hero-event-item .primary {
+  justify-self: start;
+}
+
 .card.glow {
   background: linear-gradient(160deg, var(--paper) 40%, rgba(79, 107, 122, 0.18));
 }

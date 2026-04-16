@@ -46,6 +46,22 @@ window.__CONTENT__ = {
     "cta": "Detaylar",
     "image": "assets/kitap-atolyesi-8.jpeg"
   },
+  "heroCards": [
+    {
+      "title": "Yaklaşan Etkinlik",
+      "name": "Bu Toprağın Hikayesi",
+      "date": "18 Nisan 2026 • 15.00",
+      "cta": "Detaylar",
+      "image": "assets/kitap-atolyesi-8.jpeg"
+    },
+    {
+      "title": "Yaklaşan Etkinlik",
+      "name": "Babuko ve Müzik Dinletisi",
+      "date": "19 Nisan 2026 • 14.00",
+      "cta": "Detaylar",
+      "image": "assets/babuko-muzik-dinletisi-2026.jpeg"
+    }
+  ],
   "campaign": {
     "title": "Öne Çıkan Duyuru",
     "name": "Şubat ayı etkinlik takvimi yayımlandı",

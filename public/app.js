@@ -145,6 +145,49 @@ function buildSocialItem(social) {
   return item;
 }
 
+function getHeroEvents(data) {
+  if (Array.isArray(data?.heroCards) && data.heroCards.length) return data.heroCards;
+  if (data?.heroCard) return [data.heroCard];
+  return [];
+}
+
+function createHeroEventCard(item) {
+  const section = document.createElement("section");
+  section.className = "hero-event-item";
+
+  const title = document.createElement("h3");
+  title.textContent = item?.title || "Yaklaşan Etkinlik";
+
+  const name = document.createElement("p");
+  name.textContent = item?.name || "";
+
+  const date = document.createElement("span");
+  date.textContent = item?.date || "";
+
+  const button = document.createElement("button");
+  button.className = "primary";
+  button.type = "button";
+  button.textContent = item?.cta || "Detaylar";
+
+  const detailTarget = item?.image || item?.url || "";
+  if (detailTarget) {
+    button.style.cursor = "pointer";
+    button.setAttribute("title", "Etkinlik görselini aç");
+    button.onclick = () => {
+      if (typeof window.openLightboxImage === "function") {
+        window.openLightboxImage(detailTarget, item?.name || "Etkinlik afişi");
+        return;
+      }
+      window.open(detailTarget, "_blank", "noopener,noreferrer");
+    };
+  } else {
+    button.disabled = true;
+  }
+
+  section.append(title, name, date, button);
+  return section;
+}
+
 function applyContent(data) {
   if (!data) return;
 
@@ -217,25 +260,14 @@ function applyContent(data) {
     }
   }
 
-  setText("heroCardTitle", data.heroCard?.title);
-  setText("heroCardName", data.heroCard?.name);
-  setText("heroCardDate", data.heroCard?.date);
-  setText("heroCardCta", data.heroCard?.cta);
-  const heroCardCta = document.getElementById("heroCardCta");
-  if (heroCardCta) {
-    heroCardCta.onclick = null;
-    const detailTarget = data.heroCard?.image || data.heroCard?.url || "";
-    if (detailTarget) {
-      heroCardCta.style.cursor = "pointer";
-      heroCardCta.setAttribute("title", "Etkinlik görselini aç");
-      heroCardCta.onclick = () => {
-        if (typeof window.openLightboxImage === "function") {
-          window.openLightboxImage(detailTarget, data.heroCard?.name || "Etkinlik afişi");
-          return;
-        }
-        window.open(detailTarget, "_blank", "noopener,noreferrer");
-      };
-    }
+  const heroEventsCard = document.getElementById("heroEventsCard");
+  if (heroEventsCard) {
+    heroEventsCard.innerHTML = "";
+    const heroEvents = getHeroEvents(data).slice(0, 2);
+    heroEventsCard.classList.toggle("is-split", heroEvents.length === 2);
+    heroEvents.forEach((eventItem) => {
+      heroEventsCard.appendChild(createHeroEventCard(eventItem));
+    });
   }
 
   setText("campaignTitle", data.campaign?.title);
