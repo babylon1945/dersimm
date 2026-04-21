@@ -94,6 +94,14 @@ window.__CONTENT__ = {
     "subtitle": "Güncel haber ve duyurular.",
     "items": [
       {
+        "title": "Dersim-Der Ankara Şubesi, Babuko etkinliği düzenledi!-VİDEO - PİRHA",
+        "body": "",
+        "image": "https://pirha.org/wp-content/uploads/2026/04/ankara-dersim-der-babuko-etkinligi-2.jpeg",
+        "date": "2026-04-21T11:29:57+00:00",
+        "url": "https://pirha.org/dersim-der-ankara-subesi-babuko-etkinligi-duzenledi-video-3-512039.html/21/04/2026/",
+        "linkLabel": "Habere git"
+      },
+      {
         "title": "Ankara'da yurttaşlar Akbelen direnişçisi Esra Işık için bir araya geldi",
         "body": "",
         "image": "https://static.birgun.net/resim/haber/2026/04/01/ankara-da-yurttaslar-akbelen-direniscisi-esra-isik-icin-bir-araya-geldi.jpg",

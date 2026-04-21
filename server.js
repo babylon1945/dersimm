@@ -12,10 +12,11 @@ const DB_PATH = path.join(DATA_DIR, "app.db");
 const SEED_PATH = path.join(DATA_DIR, "seed.json");
 
 const PRESS_URLS = [
+  "https://pirha.org/dersim-der-ankara-subesi-babuko-etkinligi-duzenledi-video-3-512039.html/21/04/2026/",
   "https://pirha.org/dersim-tertelesinin-88-yilinda-ankarada-anma-yapildi-video-474280.html/04/05/2025/",
   "https://pirha.org/dersim-tertelesinin-87-yilinda-ankarada-anma-yapildi-video-428921.html/04/05/2024/",
   "https://pirha.org/ankara-dersimliler-derneginin-baskani-yeniden-cigdem-camkiran-oldu-407616.html/17/12/2023/",
-  "https://pirha.org/ankara-dersimliler-dernegi-15-olagan-kurulunu-yapti-video-407600.html/17/12/2023/",
+  "https://pirha.org/ankaa.ıra-dersimliler-dernegi-15-olagan-kurulunu-yapti-video-407600.html/17/12/2023/",
   "https://pirha.org/seyit-riza-ve-arkadaslari-ankarada-anildi-dersim-halkindan-ozur-dilensin-video-349775.html/15/11/2022/",
   "https://pirha.org/ankaradaki-dersimliler-yoresel-yemek-programinda-bir-araya-geldi-video-343555.html/01/10/2022/",
   "https://pirha.org/ankara-dersimliler-dernegi-asure-lokmasi-dagitacak-337136.html/16/08/2022/",
