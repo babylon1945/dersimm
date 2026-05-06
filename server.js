@@ -12,6 +12,7 @@ const DB_PATH = path.join(DATA_DIR, "app.db");
 const SEED_PATH = path.join(DATA_DIR, "seed.json");
 
 const PRESS_URLS = [
+  "https://pirha.org/ankara-dersim-der-dersim-halkindan-ozur-dilenmelidir-video-513652.html/05/05/2026/",
   "https://pirha.org/dersim-der-ankara-subesi-babuko-etkinligi-duzenledi-video-3-512039.html/21/04/2026/",
   "https://pirha.org/dersim-tertelesinin-88-yilinda-ankarada-anma-yapildi-video-474280.html/04/05/2025/",
   "https://pirha.org/dersim-tertelesinin-87-yilinda-ankarada-anma-yapildi-video-428921.html/04/05/2024/",

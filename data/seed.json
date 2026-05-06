@@ -1,4 +1,4 @@
-window.__CONTENT__ = {
+{
   "site": {
     "name": "Ankara Dersimliler Derneği",
     "logoMark": "D",
@@ -93,14 +93,6 @@ window.__CONTENT__ = {
     "title": "Duyurular",
     "subtitle": "Güncel haber ve duyurular.",
     "items": [
-      {
-        "title": "Ankara Dersim-Der: Dersim halkından özür dilenmelidir -VİDEO - PİRHA",
-        "body": "",
-        "image": "https://pirha.org/wp-content/uploads/2026/05/Ankara-Dersim-Der-37-38-anmasi-5.jpeg",
-        "date": "2026-05-05T00:00:00.000Z",
-        "url": "https://pirha.org/ankara-dersim-der-dersim-halkindan-ozur-dilenmelidir-video-513652.html/05/05/2026/",
-        "linkLabel": "Habere git"
-      },
       {
         "title": "Dersim-Der Ankara Şubesi, Babuko etkinliği düzenledi!-VİDEO - PİRHA",
         "body": "",
@@ -467,4 +459,4 @@ window.__CONTENT__ = {
       }
     ]
   }
-};
+}
