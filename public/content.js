@@ -41,25 +41,18 @@ window.__CONTENT__ = {
   "stats": [],
   "heroCard": {
     "title": "Yaklaşan Etkinlik",
-    "name": "Bu Toprağın Hikayesi",
-    "date": "18 Nisan 2026 • 15.00",
+    "name": "Kiraz Ağacı Kitap Atölyesi",
+    "date": "17 Mayıs 2026 • 13.00",
     "cta": "Detaylar",
-    "image": "assets/kitap-atolyesi-8.jpeg"
+    "image": "assets/whatsapp-image-2026-05-13-13-12-57.jpeg"
   },
   "heroCards": [
     {
       "title": "Yaklaşan Etkinlik",
-      "name": "Bu Toprağın Hikayesi",
-      "date": "18 Nisan 2026 • 15.00",
+      "name": "Kiraz Ağacı Kitap Atölyesi",
+      "date": "17 Mayıs 2026 • 13.00",
       "cta": "Detaylar",
-      "image": "assets/kitap-atolyesi-8.jpeg"
-    },
-    {
-      "title": "Yaklaşan Etkinlik",
-      "name": "Babuko ve Müzik Dinletisi",
-      "date": "19 Nisan 2026 • 14.00",
-      "cta": "Detaylar",
-      "image": "assets/babuko-muzik-dinletisi-2026.jpeg"
+      "image": "assets/whatsapp-image-2026-05-13-13-12-57.jpeg"
     }
   ],
   "campaign": {
